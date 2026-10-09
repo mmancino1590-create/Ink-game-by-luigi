@@ -3956,7 +3956,6 @@ do
 
 	tbl6.RebelBox:Toggle({
 		Title = "Auto Shoot",
-		Locked = true,
 		Default = false,
 		Callback = function(autoShootEnabled)
 			tbl.autoShootEnabled = autoShootEnabled
@@ -8172,7 +8171,6 @@ do
 
 	tbl6.CombatBox:Toggle({
 		Title = "Desync",
-		Locked = true,
 		Default = false,
 		Callback = function(arg)
 			if not pcall(function()
@@ -9972,7 +9970,6 @@ end
 
 tbl6.GuardBox:Toggle({
 	Title = "Auto Shoot",
-	Locked = true,
 	Default = false,
 	Callback = function(autoKillRedArrowEnabled)
 		tbl.autoKillRedArrowEnabled = autoKillRedArrowEnabled
@@ -10191,7 +10188,6 @@ tbl6.AdminAbuseBox:Button({
 
 tbl6.AdminAbuseBox:Toggle({
 	Title = "Auto Shoot PBRS (AA)",
-	Locked = true,
 	Default = false,
 	Callback = function(autoShootAAEnabled)
 		tbl.autoShootAAEnabled = autoShootAAEnabled
